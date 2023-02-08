@@ -1,7 +1,7 @@
 //Déclaration de la variable jour d'entrer
-var jour = prompt("donner un jour");
+var jour = "lundi";
 
-if(jour==="samedi" || jour==="dimanche"){
+if(jour=="samedi" || jour=="dimanche"){
        console.log("weekend");
 }
 else{
